@@ -13,7 +13,7 @@ pairs = [
     ],
      [
         r"(.*) your name ?",
-        ["My name is J.A.R.V.I.S like in Iron Man, but you can just call me Jarvis and I'm a chatbot .",]
+        ["My name is JuriniAn AI Chatbot designed to help you, but you can just call me J-boy .",]
     ],
     [
         r"how are you (.*) ?",
@@ -28,8 +28,8 @@ pairs = [
         ["Nice to hear that","Alright, great !",]
     ],
     [
-        r"(hi|hey|hello|hola|holla)(.*)",
-        ["Hello", "Hey there",]
+        r"(hi|hey|hello|hola)(.*)",
+        ["Hello", "Hey Stranger", "Welcome to My Chat World", "Hey there",]
     ],
     [
         r"what (.*) want ?",
@@ -38,11 +38,11 @@ pairs = [
     ],
     [
         r"(.*)created(.*)",
-        ["randerson112358 created me using Python's NLTK library ","top secret ;)",]
+        ["Jurini Created me using Python's NLTK library "]
     ],
     [
         r"(.*) (location|city) ?",
-        ['Tokyo, Japan',]
+        ['I am Everywhere but my base of operation is in the England',]
     ],
     [
         r"(.*)raining in (.*)",
@@ -76,7 +76,8 @@ my_dummy_reflections= {
 }
 
 #default message at the start of chat
-print("Hi, I'm Jarvis and I like to chat\nPlease type lowercase English language to start a conversation. Type quit to leave ")
+print("Hi, I'm Jurini, your go to friend and I like to chat with you\nPlease type lowercase to start a conversation. Type quit to leave ")
+
 #Create Chat Bot
 chat = Chat(pairs, reflections)
 
