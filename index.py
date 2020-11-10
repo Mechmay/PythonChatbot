@@ -26,3 +26,7 @@ while True:
     input_text = input(" Hey Guest User Send me a Message > ")
     response = k.respond(input_text)
     print(" Jurini Fitness Bot  >  " + response)
+
+    if input_text == 'quit': 
+       print ("Thank you for visiting.")
+       break    
