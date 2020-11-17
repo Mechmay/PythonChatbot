@@ -2,7 +2,7 @@
 import os
 import aiml
 
-BRAIN_FILE="brain.txt"
+BRAIN_FILE="brain.csv"
 
 k = aiml.Kernel()
 
